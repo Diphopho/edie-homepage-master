@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://jovial-pothos-e5bc2f.netlify.app/">
+    <a href="https://jovial-pothos-e5bc2f.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://https://github.com/Diphopho/edie-homepage-master">
+    <a href="https://github.com/Diphopho/edie-homepage-master">
       Solution
     </a>
     <span> | </span>
