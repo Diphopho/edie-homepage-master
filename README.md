@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://https://jovial-pothos-e5bc2f.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://https://github.com/Diphopho/edie-homepage-master">
       Solution
     </a>
     <span> | </span>
@@ -44,7 +44,7 @@ Mobile View<br />
 
 This is the solution for the challenge from devchallenge.io. Responsive web based on the design. Added some animation on this project solution.
 
-Check the demo on [demo](https://)
+Check the demo on [demo](https://jovial-pothos-e5bc2f.netlify.app/)
 
 ### Built With
 
