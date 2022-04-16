@@ -1,0 +1,19 @@
+:root {
+  --Gray1: hsla(0, 0%, 20%, 1);
+  --Gray2: hsla(0, 0%, 31%, 1);
+  --Gray3: hsla(0, 0%, 51%, 1);
+  --Gray4: hsla(0, 0%, 74%, 1);
+  --Gray6: hsl(0, 0%, 95%);
+  --LightBlue: hsla(202, 71%, 52%, 1);
+  --LightGreen: hsla(145, 63%, 42%, 1);
+  --LightRed: hsla(0, 79%, 63%, 1);
+  --White: hsla(0, 0%, 100%, 1);
+  --DarkBlue: hsla(248, 35%, 8%, 1);
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--Gray1);
+}

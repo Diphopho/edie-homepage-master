@@ -1,0 +1,20 @@
+@use "../utils" as *;
+
+.hero {
+  &__image {
+    margin-top: rem(15);
+    width: 100%;
+    min-height: rem(145);
+    border-radius: rem(18);
+  }
+}
+
+// .hero {
+//   width: rem(272);
+//   @include breakpoint(medium) {
+//     width: rem(408);
+//   }
+//   @include breakpoint(large) {
+//     width: rem(543);
+//   }
+// }

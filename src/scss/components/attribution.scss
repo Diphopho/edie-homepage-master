@@ -1,0 +1,34 @@
+.attribution {
+  p,
+  a {
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--White);
+    text-align: center;
+  }
+
+  a {
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      border-bottom: solid 2px var(--White);
+      position: relative;
+      transform: scaleX(0);
+      transition: transform 0.3s ease-in-out;
+      transition-delay: 0.2s;
+      //   top: -5px;
+    }
+    &:hover {
+      transform: translateY(-5px);
+    }
+    &:hover::after {
+      transform: scaleX(1);
+    }
+  }
+}

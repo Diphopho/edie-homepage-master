@@ -1,0 +1,49 @@
+.anim,
+.anim-left,
+.anim-right {
+  opacity: 0;
+}
+
+// Animate work's image gallery
+
+.works__gallery {
+  .img-wrapper:nth-child(odd) {
+    animation: anim-left 1s forwards ease-in-out;
+  }
+  .img-wrapper:nth-child(even) {
+    animation: anim-right 1s forwards ease-in-out;
+  }
+}
+
+@keyframes anim1 {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes anim-left {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes anim-right {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

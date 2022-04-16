@@ -1,0 +1,156 @@
+@use "../utils" as *;
+
+li {
+  list-style: none;
+}
+
+.header {
+  &__logo {
+    font-size: rem(24);
+    font-weight: 800;
+    font-family: var(--font-heebo);
+    line-height: rem(35.25);
+    @include breakpoint(medium) {
+      font-size: rem(30);
+      line-height: rem(42.88);
+    }
+    @include breakpoint(large) {
+      font-size: rem(36);
+      line-height: rem(52.88);
+    }
+  }
+}
+
+.nav__link {
+  color: var(--Gray1);
+  font-size: rem(20);
+  font-weight: 500;
+  line-height: rem(36);
+
+  @include breakpoint(large) {
+    font-size: rem(24);
+    line-height: rem(36);
+  }
+}
+
+.hero {
+  &__paragraph {
+    font-size: rem(12);
+    font-weight: 500;
+    line-height: rem(18);
+    color: var(--LightBlue);
+    @include breakpoint(medium) {
+      font-size: rem(15);
+      line-height: rem(23);
+    }
+    @include breakpoint(large) {
+      font-size: rem(18);
+      line-height: rem(27);
+    }
+  }
+}
+
+.subtitle {
+  &__paragraph {
+    font-size: rem(12);
+    font-weight: 400;
+    line-height: rem(18);
+    @include breakpoint(medium) {
+      font-size: rem(18);
+      line-height: rem(27);
+    }
+  }
+}
+
+.form {
+  &__label {
+    font-size: rem(10);
+    height: rem(21);
+    font-weight: 500;
+    color: var(--Gray3);
+    @include breakpoint(medium) {
+      font-size: rem(14);
+    }
+  }
+  &__input::placeholder {
+    color: var(--Gray4);
+    font-size: rem(14);
+    line-height: rem(21);
+    font-weight: 500;
+    @include breakpoint(medium) {
+      font-size: rem(18);
+      line-height: rem(27);
+    }
+  }
+}
+
+.btn {
+  font-size: rem(14);
+  line-height: rem(21);
+  font-weight: 500;
+  @include breakpoint(medium) {
+    font-size: rem(18);
+    line-height: rem(27);
+  }
+}
+
+.caption__type {
+  font-size: rem(12);
+  font-weight: 300;
+  line-height: rem(18);
+  color: var(--Gray3);
+  @include breakpoint(large) {
+    font-size: rem(14);
+    line-height: rem(21);
+  }
+}
+
+.caption__title {
+  font-size: rem(18);
+  font-weight: 500;
+  line-height: rem(27);
+  @include breakpoint(large) {
+    font-size: rem(24);
+    line-height: rem(36);
+  }
+}
+
+.works__gallery a {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--LightBlue);
+  @include breakpoint(large) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.team {
+  &__caption {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: var(--LightRed);
+  }
+  &__title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+  }
+  &__paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--Gray2);
+  }
+  .quote-wrapper {
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      color: var(--Gray3);
+    }
+  }
+}
