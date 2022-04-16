@@ -34,7 +34,10 @@
 
 ## Overview
 
-![screenshot](https://github.com/Diphopho/edie-homepage-master/blob/master/Screenshot.gif)
+Desktop View
+![Desktop View](https://github.com/Diphopho/edie-homepage-master/blob/master/Screenshot.gif)
+
+Mobile View
 ![screenshot-mobile](https://github.com/Diphopho/edie-homepage-master/blob/master/Screenshot-mobile.gif)
 
 This is the solution for the challenge from devchallenge.io. Responsive web based on the design. Added some animation on this project solution.
